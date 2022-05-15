@@ -84,6 +84,7 @@ h1 {
    color: #fff;
    border: 0;
    cursor: pointer;
+   margin-bottom: 20px;
 }
 .btn:hover {
    background-color: rgb(226, 26, 26);
@@ -107,7 +108,7 @@ h1 {
    box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
    border-radius: 30px;
    overflow: hidden;
-   margin-bottom: 20px;
+   margin-bottom: 10px;
 }
 
 .circle {
