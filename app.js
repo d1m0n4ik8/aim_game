@@ -27,7 +27,6 @@ board.addEventListener('click', (event) => {
    }
 })
 function reloadGame() {
-   screens[0].classList.remove('up')
    screens[1].classList.remove('up')
    document.location.reload()
 }
