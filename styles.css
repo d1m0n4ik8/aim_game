@@ -47,7 +47,7 @@ h1 {
 }
 
 .screen.up {
-   margin-top: -100vh;
+   display: none;
 }
 
 .time-list {
