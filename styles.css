@@ -24,11 +24,11 @@ a {
 }
 
 a:hover {
-   color: #16d9e3;
+   color: #e31616;
 }
 
 .start {
-   font-size: 1.5rem;
+   font-size: 2rem;
 }
 
 h1 {
@@ -73,8 +73,8 @@ h1 {
 }
 
 .time-btn:hover {
-   border: 2px solid #16d9e3;
-   color: #16d9e3;
+   border: 2px solid #e31616;
+   color: #e31616;
 }
 
 .hide {
@@ -82,7 +82,7 @@ h1 {
 }
 
 .primary {
-   color: #16d9e3;
+   color: #e31616;
 }
 
 .board {

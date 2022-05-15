@@ -6,8 +6,6 @@ const timeEl = document.querySelector('#time')
 let time = 0
 let score = 0
 
-const color = ['#fa2323', '#2860fa', '#1aed64', '#e9ed1a', '#bb1ae8', '#1ae8e5', '#f72f97', '#f79e2a']
-
 start.addEventListener('click', (event) => {
    event.preventDefault()
    screens[0].classList.add('up')
@@ -60,7 +58,7 @@ function createRandomCircle() {
    circle.classList.add('circle')
    const color = getRandomColor()
    circle.style.background = `${color}`
-   const size = getRandomNumber(20, 50)
+   const size = getRandomNumber(20, 60)
    const { width, height } = board.getBoundingClientRect()
    const x = getRandomNumber(0, width - size)
    const y = getRandomNumber(0, height - size)
@@ -75,6 +73,10 @@ function getRandomNumber(min, max) {
    return Math.round(Math.random() * (max - min) + min)
 }
 function getRandomColor() {
-   const index = Math.floor(Math.random() * color.length)
-   return color[index]
+   let letters = '0123456789ABCDEF'
+   let color = '#'
+   for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)]
+   }
+   return color
 }
