@@ -26,7 +26,11 @@ board.addEventListener('click', (event) => {
       createRandomCircle()
    }
 })
-
+function reloadGame() {
+   screens[0].classList.remove('up')
+   screens[1].classList.remove('up')
+   document.location.reload()
+}
 function startGame() {
    setInterval(decreaseTime, 1000)
    setTime(time)
