@@ -76,7 +76,18 @@ h1 {
    border: 2px solid #e31616;
    color: #e31616;
 }
-
+.btn {
+   padding: 10px 20px;
+   border-radius: 10px;
+   font-size: 16px;
+   background-color: #e31616;
+   color: #fff;
+   border: 0;
+   cursor: pointer;
+}
+.btn:hover {
+   background-color: rgb(226, 26, 26);
+}
 .hide {
    opacity: 0;
 }
